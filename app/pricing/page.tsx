@@ -11,7 +11,7 @@ export default function Pricing() {
           Choose the plan that's right for you
         </p>
 
-        <div className="flex overflow-hidden gap-8 max-w-5xl mx-auto">
+        <div className="flex overflow-hidden gap-8 max-w-5xl mx-auto flex-wrap">
           {plans.map((plan) => (
             <div
               className="min-w-[250px] bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 flex flex-col"
