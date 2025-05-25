@@ -14,7 +14,7 @@ export default function Pricing() {
         <div className="flex overflow-hidden gap-8 max-w-5xl mx-auto flex-wrap">
           {plans.map((plan) => (
             <div
-              className="max-w-[250px] bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 flex flex-col"
+              className="w-[300px] bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 flex flex-col"
               key={"key"}
             >
               <h2 className="text-2xl font-bold mb-4">{plan.name}</h2>
