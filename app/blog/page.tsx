@@ -15,7 +15,6 @@ export default function Blog() {
             <BlogPostCard key={index} post={post} />
           ))}
         </div>
-
         <Newsletter />
       </div>
     </div>

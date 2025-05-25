@@ -59,9 +59,9 @@ export default function Pricing() {
         <div className="mt-12 text-center">
           <p className="text-gray-600 dark:text-gray-300">
             Need a custom plan?{" "}
-            <a href="/contact" className="text-purple-600 hover:underline">
+            <Link href="/contact" className="text-purple-600 hover:underline">
               Contact us
-            </a>
+            </Link>
           </p>
         </div>
       </div>

@@ -14,12 +14,6 @@ export default function AppBar() {
 
           <div className="flex items-center space-x-8">
             <Link
-              href="/"
-              className="text-gray-700 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white transition-colors"
-            >
-              Home
-            </Link>
-            <Link
               href="/gallery"
               className="text-gray-700 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white transition-colors"
             >
@@ -30,6 +24,12 @@ export default function AppBar() {
               className="text-gray-700 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white transition-colors"
             >
               Blog
+            </Link>
+            <Link
+              href="/tutorials"
+              className="text-gray-700 hover:text-gray-900 dark:text-gray-200 dark:hover:text-white transition-colors"
+            >
+              Tutorials
             </Link>
           </div>
         </div>

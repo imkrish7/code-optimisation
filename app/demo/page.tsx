@@ -3,6 +3,7 @@
 import { useState } from "react";
 import PromptInput from "../components/PromptInput";
 import GeneratedImage from "../components/GeneratedImage";
+import Link from "next/link";
 
 export default function Demo() {
   const [prompt, setPrompt] = useState("");
@@ -40,9 +41,9 @@ export default function Demo() {
         <div className="mt-12 text-center">
           <p className="text-gray-600 dark:text-gray-300">
             Want to create more? Check out our{" "}
-            <a href="/pricing" className="text-purple-600 hover:underline">
+            <Link href="/pricing" className="text-purple-600 hover:underline">
               pricing plans
-            </a>
+            </Link>
           </p>
         </div>
       </div>

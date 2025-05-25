@@ -11,7 +11,7 @@ export default function Hero() {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/2.mp4" type="video/mp4" />
+        <source src="/Professional_Mode_The_dog_jumps_onto_the_man_s_lap.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay */}
